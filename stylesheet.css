@@ -1,0 +1,100 @@
+.container{
+    border: 2px solid black;
+    background-color: pink;
+
+}
+@media screen and  (width >= 768px) and (width <= 1024px) {
+    
+    .container{
+        background-color: lightblue;
+    }
+}
+
+.container1{
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+
+}
+@media screen and (width >=600px) and (width <= 1200px) {
+    .container1{
+        font-size: 18px;
+
+    }
+    
+}
+.container2{
+    border: 2px solid black;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item1{
+    background-color: red;
+    margin: 5px;
+}
+.item2{
+    background-color: blue;
+
+    margin: 5px;
+}
+@media screen and (width <= 480px) {
+     .container2{
+        flex-direction: column;
+     }    
+}
+.class{
+    border: 2px solid;
+    background-color: black;
+    color: aliceblue;
+}
+@media screen and  (width >= 500px) and (width <= 800px)  {
+    h1{
+        color: green;
+    }
+    
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+@media screen and (width <= 400px) {
+    .image{
+        display: none;
+    }
+    
+}
+.class1{
+    border: 2px solid black;
+
+}
+@media screen and (width <= 1024px) {
+    .class1{
+        padding: 20px;
+    }
+    
+}
+.hii{
+    background-color: green;
+    
+}
+h1{
+    color: aliceblue;
+}
+@media screen and (width >= 600px) and (width <= 1200px) {
+  .hii{
+    background-color: lightgray;
+  }  
+}
+.para{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
+}
+@media screen and (width <= 480px) {
+    .para{
+        font-size: 16px;
+    }
+    
+}
